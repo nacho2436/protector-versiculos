@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rayos de luz -->
+    <path
+        android:pathData="M54,30 L54,24 M43,33 L39,28 M65,33 L69,28 M36,44 L30,44 M72,44 L78,44"
+        android:strokeColor="#FFE082"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Cruz dorada -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M51,35 L57,35 L57,59 L51,59 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M42,41 L66,41 L66,47 L42,47 Z" />
+
+    <!-- Biblia abierta -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M54,65 C49,61 41,59 32,60 L32,79 C41,78 49,79.5 54,83 Z" />
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M54,65 C59,61 67,59 76,60 L76,79 C67,78 59,79.5 54,83 Z" />
+    <path
+        android:pathData="M54,65.5 L54,82.5"
+        android:strokeColor="#D7A94B"
+        android:strokeWidth="1.2" />
+
+    <!-- Líneas de texto -->
+    <path
+        android:pathData="M36,65.5 C40,64.3 45,64.6 50,66.4 M36,70.5 C40,69.3 45,69.6 50,71.4 M58,66.4 C63,64.6 68,64.3 72,65.5 M58,71.4 C63,69.6 68,69.3 72,70.5"
+        android:strokeColor="#C9A227"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round" />
+</vector>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <TextView
+                android:id="@+id/verseText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:lineSpacingExtra="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="26sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/refText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/chip_bg"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.15"
+                android:paddingStart="18dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="18dp"
+                android:paddingBottom="10dp"
+                android:textColor="#E6FFFFFF"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_circle"
+        android:contentDescription="@string/cd_close"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_close" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="36dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnStar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_circle"
+            android:contentDescription="@string/cd_star"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_star_outline" />
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/btn_circle"
+            android:contentDescription="@string/cd_share"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_share" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Versículos</string>
+    <string name="toolbar_subtitle">Un versículo nuevo cada vez que desbloqueas</string>
+
+    <string name="label_activar">Versículo al desbloquear</string>
+    <string name="status_active">Activo · %1$s · se muestra al desbloquear</string>
+    <string name="status_active_notif">Activo · %1$s · falta permiso «Sobre otras apps»: llegará como notificación</string>
+    <string name="status_inactive">Inactivo</string>
+
+    <string name="perm_title">Mostrar sobre otras apps</string>
+    <string name="perm_desc">Necesario para mostrar el versículo justo al desbloquear, sobre la pantalla que esté abierta. Si no lo concedes, el versículo llegará como notificación.</string>
+    <string name="perm_btn">Conceder permiso</string>
+
+    <string name="label_version">Versión de la Biblia</string>
+    <string name="label_seleccion">Selección del versículo</string>
+    <string name="mode_random">Aleatorio</string>
+    <string name="mode_sequential">Secuencial (sin repetir)</string>
+    <string name="label_frecuencia">Frecuencia</string>
+    <string name="label_tema">Fondo del versículo</string>
+    <string name="label_categoria">Categoría</string>
+    <string name="cat_all">Todas las categorías</string>
+
+    <string-array name="frecuencia_labels">
+        <item>Cada desbloqueo</item>
+        <item>Cada 15 minutos</item>
+        <item>Cada hora</item>
+        <item>Cada 3 horas</item>
+    </string-array>
+
+    <string-array name="tema_labels">
+        <item>Amanecer</item>
+        <item>Nocturno</item>
+        <item>Océano</item>
+        <item>Bosque</item>
+    </string-array>
+
+    <string name="btn_probar">Ver un versículo ahora</string>
+    <string name="btn_favoritos">Favoritos</string>
+    <string name="favorites_empty">Aún no tienes favoritos. Marca los versículos con la estrella ★ al verlos.</string>
+    <string name="fav_added">Añadido a favoritos</string>
+    <string name="fav_removed">Quitado de favoritos</string>
+    <string name="share_via">Compartir versículo</string>
+    <string name="error_sin_versiculos">No hay versículos disponibles con estos ajustes</string>
+
+    <string name="channel_service_name">Servicio en segundo plano</string>
+    <string name="channel_service_desc">Mantiene activo el versículo al desbloquear</string>
+    <string name="channel_verse_name">Versículos</string>
+    <string name="channel_verse_desc">Versículo mostrado como notificación</string>
+    <string name="notif_service_title">Versículos al desbloquear · activo</string>
+    <string name="notif_service_text">Toque para abrir los ajustes</string>
+
+    <string name="verse_ref_format">%1$s · %2$s</string>
+    <string name="fallback_ref">Salmos 118:24</string>
+    <string name="fallback_text">Este es el día que hizo Jehová; nos gozaremos y alegraremos en él.</string>
+
+    <string name="cd_close">Cerrar</string>
+    <string name="cd_star">Favorito</string>
+    <string name="cd_share">Compartir</string>
+
+    <string name="footer_info">Incluye Reina-Valera 1909 (español) y King James Version (inglés), ambas de dominio público.\nPuedes añadir más versiones copiando un archivo JSON en assets/versions/.</string>
+</resources>
